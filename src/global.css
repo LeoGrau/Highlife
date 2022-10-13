@@ -1,13 +1,28 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Rajdhani:wght@400;500&family=Righteous&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-
 /* Variables */
 :root {
   --rich-black-fogra: #001524;
   --raisin-black: #2D2A32;
+  --raisin-black-tr-8: rgba(45, 42, 50, 0.8);
+  --raisin-black-tr-6: rgba(45, 42, 50, 0.6);
+  --righteous-f: 'Righteous', cursive;
+  --rajdhani-f: 'Rajdhani', sans-serif;
+  --electrolize-f: 'Electrolize', sans-serif;
+}
+
+
+li {
+  list-style: none !important; 
+}
+
+a {
+  text-decoration: none !important;
 }
