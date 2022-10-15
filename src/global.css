@@ -26,3 +26,7 @@ li {
 a {
   text-decoration: none !important;
 }
+
+.view-content {
+  transform: translateY(70px) !important;
+}
