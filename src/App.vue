@@ -1,14 +1,14 @@
 <template>
-  <hl-toolbar></hl-toolbar>
+  <tool-bar></tool-bar>
   <router-view></router-view>
 </template>
 
 <script>
-import HlToolbar from "./components/hl-toolbar.vue";
+import ToolBar from "./highlife/components/tool-bar.component.vue";
 
 import "../src/global.css";
 
-export default { components: { HlToolbar } };
+export default { components: { ToolBar } };
 </script>
 
 <style></style>
